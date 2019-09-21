@@ -54,6 +54,23 @@ class ViewController: UIViewController {
                 label.isHidden = false;
             }
         }
+        
+        gameisActive = false;
+        
+        for i in gameState {
+            if(i == 0)
+            {
+                gameisActive = true
+                break;
+            }
+        }
+        
+        if gameisActive == false
+        {
+            label.text = "Draw"
+            label.isHidden = false;
+            playAgainButton.isHidden = false;
+        }
     }
     
     @IBOutlet weak var playAgainButton: UIButton!
@@ -71,7 +88,6 @@ class ViewController: UIViewController {
             button.setImage(nil, for: UIControl.State())
         }
     }
-    
     
 
     override func viewDidLoad() {
