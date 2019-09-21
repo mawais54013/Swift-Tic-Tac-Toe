@@ -14,6 +14,9 @@
 		B561C93E2336D92C00E96BAA /* Swift_Tic_Tac_Toe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B561C93C2336D92C00E96BAA /* Swift_Tic_Tac_Toe.xcdatamodeld */; };
 		B561C9402336D92E00E96BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B561C93F2336D92E00E96BAA /* Assets.xcassets */; };
 		B561C9432336D92E00E96BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B561C9412336D92E00E96BAA /* LaunchScreen.storyboard */; };
+		B561C94E2336DA4400E96BAA /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C94B2336DA4300E96BAA /* o.png */; };
+		B561C9512336DAB200E96BAA /* board1.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C9502336DAB200E96BAA /* board1.png */; };
+		B561C9552336DB9700E96BAA /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C9542336DB9700E96BAA /* x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		B561C93F2336D92E00E96BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B561C9422336D92E00E96BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B561C9442336D92E00E96BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B561C94B2336DA4300E96BAA /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
+		B561C9502336DAB200E96BAA /* board1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board1.png; sourceTree = "<group>"; };
+		B561C9542336DB9700E96BAA /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				B561C9412336D92E00E96BAA /* LaunchScreen.storyboard */,
 				B561C9442336D92E00E96BAA /* Info.plist */,
 				B561C93C2336D92C00E96BAA /* Swift_Tic_Tac_Toe.xcdatamodeld */,
+				B561C94B2336DA4300E96BAA /* o.png */,
+				B561C9502336DAB200E96BAA /* board1.png */,
+				B561C9542336DB9700E96BAA /* x.png */,
 			);
 			path = "Swift Tic Tac Toe";
 			sourceTree = "<group>";
@@ -128,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B561C9552336DB9700E96BAA /* x.png in Resources */,
+				B561C94E2336DA4400E96BAA /* o.png in Resources */,
 				B561C9432336D92E00E96BAA /* LaunchScreen.storyboard in Resources */,
 				B561C9402336D92E00E96BAA /* Assets.xcassets in Resources */,
+				B561C9512336DAB200E96BAA /* board1.png in Resources */,
 				B561C93B2336D92C00E96BAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
